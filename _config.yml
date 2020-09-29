@@ -4,7 +4,7 @@ email: ooksfatale@naver.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Web Developer"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -49,6 +49,39 @@ social:
   #  url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/ooksfatale
+
+# Skill List
+skill :
+  - img : java.png
+    title : JAVA
+    content : 자바
+    percent : 60
+    color : success
+  - img : js.png
+    title : JavaScript
+    content : 자바스크립트
+    percent : 10
+    color : info
+  - img : jquery.png
+    title : Jquery
+    content : 제이쿼리
+    percent : 30
+    color : warning
+  - img : database.png
+    title : ORACLE & Maria DB
+    content : 오라클 & 마리아디비
+    percent : 40
+    color : danger
+  - img : spring.png
+    title : SPRING & SPRING BOOT
+    content : 스프링 & 스프링부트
+    percent : 70
+    color : 
+  - img : git.png
+    title : GIT & GIT HUB
+    content : 깃 & 깃허브
+    percent : 80
+    color : success
 
 # Postal address (add as many lines as necessary)
 address:

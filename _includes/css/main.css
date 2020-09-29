@@ -482,3 +482,140 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/** top Style START **/
+
+#back-top {
+    position: fixed;
+    bottom: 17%;
+    right: 5%;
+    margin-left: -150px;
+}
+
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top a {
+    width: 67px;
+    height: 68px;
+    display: block;top_bt.png
+    margin-bottom: 7px;
+    background: url(/img/top_bt.png) no-repeat center center;
+
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #777;
+}
+
+
+.title { 
+  font-size: 50px; 
+  font-weight: bold; 
+  text-align: center; 
+  letter-spacing: 3px; 
+  padding-bottom: 70px; 
+} 
+.title-skill { 
+  margin-top: 30px; 
+} 
+.title::after { 
+  content: ""; 
+  display: block; 
+  width: 100px; 
+  height: 10px; 
+  margin: 0 auto; 
+  background: -webkit-linear-gradient(#4169e1, #5592cf); 
+} 
+.skills-area * { 
+  height: auto; 
+  background-color: #fff; 
+  color: #222222; 
+} 
+.skills-area > .container { 
+  text-align: center; 
+} 
+.skills-area > .container > .item { 
+  height: auto; 
+  background-color: #fff; 
+  padding: 20px; 
+  margin: 20px; 
+  text-align: left; 
+  transition: all 0.5s ease; 
+  box-shadow: rgba(188, 196, 219, 0.77) 5px 5px 13px 0px; 
+} 
+.skills-area > .container > .item:hover { 
+  transform: scale(1.015); 
+  box-shadow: 0 6ps 20px 0 rgba(0, 0, 0, 0.2); 
+} 
+.skills-area > .container > .item > .icon { 
+  padding: 10px 0; 
+  display: inline-block; 
+} 
+.skills-area > .container > .item > .icon > span > i { 
+  font-size: 48px; 
+  color: #aaa; 
+} 
+.skills-area > .container > .item > .skill { 
+  font-size: 32px; 
+  font-weight: bold; 
+  padding: 10px 0; 
+} 
+.skills-area > .container > .item > .content { 
+  font-size: 16px; 
+  font-family: "Noto Sans KR", sans-serif; 
+  letter-spacing: 1.5px; 
+  padding: 10px 0; 
+} 
+.icon-image { 
+  width: 80px; 
+} 
+
+.progress {
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    height: 25px;
+}
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
