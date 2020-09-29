@@ -20,6 +20,14 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
 
+    <script type="text/javascript">
+
+    (function () {
+       $('[data-toggle="tooltip"]').tooltip();
+    }());
+    
+    </script>
+
     {% if site.contact == "disqus" %}
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}
