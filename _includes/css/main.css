@@ -597,12 +597,6 @@ footer .footer-below {
 
 .progress {
     position: relative;
-    text-align: left;
-    white-space: nowrap;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    cursor: pointer;
     height: 25px;
 }
 .progress > .progress-type {
