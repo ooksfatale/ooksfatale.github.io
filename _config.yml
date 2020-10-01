@@ -81,7 +81,7 @@ skill :
     title : GIT & GIT HUB
     content : 깃 & 깃허브
     percent : 80
-    color : info
+    color : warning
 
 # Postal address (add as many lines as necessary)
 address:
